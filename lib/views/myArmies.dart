@@ -8,14 +8,13 @@ class MyArmies extends StatefulWidget {
 
 class MyArmiesState extends State<MyArmies> {
   List<String> armies = [];
+  bool toggle = false;
   final List<int> colorCodes = <int>[600, 500, 100, 200, 300, 400, 700, 800, 900];
   // print(armies);
 
   void addArmy() {
-     setState(() {armies = ["2", "3"];}
-  );
-      armies.add('turkey');
-
+    setState(() {armies = ["object1", "object2", "object3"];}
+      );
   return print('success');
   }
 
