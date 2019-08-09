@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>727350896758-g5gfdi00ad53mmn42fnooscu0147qf65.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.727350896758-g5gfdi00ad53mmn42fnooscu0147qf65</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBsCaPhaS7pg5aFA9fnFER4EO8r76rkpc8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>727350896758</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.armedtotheteeth.app</string>
+	<key>PROJECT_ID</key>
+	<string>armedtotheteeth-d17a3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>armedtotheteeth-d17a3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:727350896758:ios:8e05c2cf73e5bfac</string>
+	<key>DATABASE_URL</key>
+	<string>https://armedtotheteeth-d17a3.firebaseio.com</string>
+</dict>
+</plist>

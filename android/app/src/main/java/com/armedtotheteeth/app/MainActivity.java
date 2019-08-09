@@ -1,4 +1,4 @@
-package com.example.armedtotheteeth;
+package com.armedtotheteeth.app;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

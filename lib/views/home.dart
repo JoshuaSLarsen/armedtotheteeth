@@ -1,33 +1,34 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import './myArmies.dart';
 import './buildArmy.dart';
 
 class Home extends StatelessWidget {
-   
-  void _doIt() {
-  return print('Princess Ximena is cool');
-  }
-
+  const Home({
+    Key key, 
+    @required this.user
+    }) : super(key: key);
+   final FirebaseUser user;
+ 
   @override
   Widget build(BuildContext context) {
       return Scaffold(
         appBar: AppBar(
           backgroundColor: Color(0xFF244A26),
           title: Text(
-            "Armed to the Teeth", 
-            style: TextStyle(
-              fontStyle: FontStyle.italic, 
-              color: Colors.black.withOpacity(1.0),
-              fontFamily: 'Papyrus',
-              fontSize: 30,
-              fontWeight: FontWeight.w800
-              )
+            user.email,
+          style: TextStyle(
+            fontStyle: FontStyle.italic, 
+            color: Colors.black.withOpacity(1.0),
+            fontFamily: 'Papyrus',
+            fontSize: 30,
+            fontWeight: FontWeight.w800
             ),
-        ),
+            )
+          ),
         body: Center(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
-          
             children: <Widget>[
               RaisedButton(
                   onPressed: (){
@@ -49,7 +50,7 @@ class Home extends StatelessWidget {
                   child: Text('Me Armies')),
             ],
           ),
-        ), 
-      );
+        ),
+      ); 
     }
   }
