@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "727350896758",
+    "firebase_url": "https://armedtotheteeth-d17a3.firebaseio.com",
+    "project_id": "armedtotheteeth-d17a3",
+    "storage_bucket": "armedtotheteeth-d17a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727350896758:android:8e05c2cf73e5bfac",
+        "android_client_info": {
+          "package_name": "com.armedtotheteeth.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727350896758-bpkarsuk769v5b9ml932r9pj4nmt8bk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1qgK2RtedAShS6rJ8R7eduj7F5FZe3ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727350896758-bpkarsuk769v5b9ml932r9pj4nmt8bk2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "727350896758-g5gfdi00ad53mmn42fnooscu0147qf65.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.armedtotheteeth.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
